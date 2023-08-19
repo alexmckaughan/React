@@ -1,0 +1,39 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* .square {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: blue;
+} */
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.board-container {
+  position: absolute; /* Add this to make the board move within the game board */
+}
+
+.game {
+  flex-direction: row;
+  width: 100vw; /* Adjust this value to set the width of the game board */
+  height: 100vh; /* Adjust this value to set the height of the game board */
+}
+
+.game-info {
+  position: absolute;
+  right: 5vh;
+  top: 5vh;
+}
